@@ -1,0 +1,230 @@
+.loginSectionWrapper {
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.loginLeftEction {
+    padding: 100px;
+}
+
+.logoRegister {
+    mix-blend-mode: multiply;
+}
+
+.loginMainheading {
+    font-family: "Calibri", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #4376bb;
+
+}
+
+
+
+.loginToptext {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.LoginHeading {
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #4C4C4C;
+}
+
+.LoginRemember {
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #4C4C4C;
+}
+
+.loginImagewrapper {
+    position: relative;
+    width: 100%;
+    max-width: 910px;
+    /* Adjust based on layout */
+    margin: 10px 25px 6px 25px;
+
+
+}
+
+.loginBackgroundimage {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    border-radius: 10px;
+    /* Optional rounded corners */
+}
+
+.overlayText {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: linear-gradient(90.01deg, rgba(0, 0, 0, 0.56) 0.01%, rgba(0, 0, 0, 0) 99.99%);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.mainText {
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.highlightText {
+    font-family: "Calibri", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #4376bb;
+}
+
+
+
+/*---------------------*/
+
+
+.registerFormDetails {
+    padding: 25px 30px 0px 0px;
+}
+
+.forminput {
+
+    box-shadow: none !important;
+    border-color: #dfe3e8 !important;
+    background: #f1f5f9 !important;
+}
+
+.registerButton {
+    margin-top: 50px;
+}
+
+.registerWrapperButton {
+    color: #fff;
+    background: #4376bb;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 60px;
+}
+
+.registerWrapperButton:hover {
+    color: #fff;
+    background: #4376bb;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+    height: 60px;
+}
+
+
+
+/*---------------------media querry---------------------*/
+
+
+@media (min-width: 1921px) and (max-width: 2561px) {}
+
+@media (min-width: 1536px) and (max-width: 1920px) {}
+
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1024.98px) {
+    .registerFormDetails {
+        padding: 0px;
+    }
+
+    .loginLeftEction {
+        padding: 70px;
+    }
+
+    .loginMainheading {
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 937.98px) {}
+
+@media (max-width: 890.98px) {}
+
+@media (max-width: 800.98px) {}
+
+@media (max-width: 767.98px) {
+    .loginImagewrapper {
+        display: none;
+    }
+
+    .registerFormDetails {
+        padding: 0px;
+    }
+
+    .loginMainheading {
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 630.98px) {}
+
+@media (max-width: 575.98px) {}
+
+@media (max-width: 516.98px) {
+    .loginLeftEction {
+        padding: 67px;
+    }
+
+}
+
+@media (max-width: 483.98px) {
+    .loginLeftEction {
+        padding: 56px ;
+    }
+    .loginSectionWrapper {
+    display: flex;
+    align-items: center;
+    
+    
+}
+.loginToptext {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+}
+
+@media (max-width: 440.98px) {
+    .loginLeftEction {
+    padding: 40px;
+  }
+  .loginSectionWrapper {
+    overflow: hidden;
+    height: 70vh;
+    
+}
+}
+
+@media (max-width: 420.98px) {}
+
+@media (max-width: 380.98px) {
+    .loginLeftEction {
+    padding: 20px;
+  }
+}

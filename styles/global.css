@@ -1,0 +1,151 @@
+.dashboard-add-btn{
+    display: flex;
+    align-items: center;
+    
+}
+
+.dashboard-back-btn{
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+
+.dashboard-form-wrapper{
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.table-parent-wrapper{
+    padding: 0px 20px;
+}
+
+.super-responsive-table table{
+   border: 1px solid #dcdcdc;
+   text-align: center;
+
+}
+
+.super-responsive-table table td,.super-responsive-table table th{
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+
+.upload-container {
+    width: 150px;
+    height: 200px;
+    border: 2px dashed #aaa;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h1{
+    font-size: 28px!important;
+  }
+
+  .table-input{
+    width: 50%!important;
+  }
+
+ .modal-performance .modal-content {
+    width: 736px !important;
+ }
+ 
+
+.text-warning-custom {
+  color: #4376bb !important;
+}
+
+.breadcrum-link{
+    color: #4376bb !important;
+}
+/* Add this to your styles (e.g., styles/globals.css) */
+.nav-link.active {
+  background-color: #4376bb; /* Light gray background */
+  color: #000 !important;   /* Ensure dark text */
+  font-weight: 600;
+ 
+}
+
+.dashboard-background{
+    background-color: #0e3862;
+}
+
+.icon-primary{
+    
+    color: #1d0093;
+}
+
+ .aside-navbar-top{
+   
+        padding: 0.625rem 1.5rem!important;
+        margin-right: 0px!important;
+        display: block!important;
+        background: #ffffff!important;
+       
+   
+ }
+ .navbar-sidebar{
+    border-right: 1px solid #fff!important;
+ }
+
+.responsive-table-td{
+    min-height: 50px;
+}
+
+/* pagination css */
+/*------------------------ pagination code----------------*/
+
+.react-pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 35px;
+}
+
+.react-pagination li {
+  margin: 0 5px;
+}
+
+.react-pagination li a {
+  cursor: pointer;
+  padding: 8px 12px;
+  border: 1px solid  #4376bb;
+  color:#000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.react-pagination li a:hover,
+.react-pagination li a:focus {
+  background-color: #4376bb;
+  color: #000!important;
+}
+
+.react-pagination li.selected a {
+  background-color:#4376bb;
+  color: #000;
+  border-color: transparent;
+}
+
+
+.react-pagination li a[aria-disabled="true"]{
+  pointer-events: none;
+  background: #4376bb;
+  color: #000;
+  opacity: 0.7;
+}

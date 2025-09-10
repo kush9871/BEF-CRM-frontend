@@ -1,0 +1,65 @@
+/*---------------------media querry---------------------*/
+
+
+@media (min-width: 1921px) and (max-width: 2561px) {}
+
+@media (min-width: 1536px) and (max-width: 1920px) {}
+
+@media (max-width: 1399.98px) {}
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 1024.98px) {
+   
+
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 937.98px) {}
+
+@media (max-width: 890.98px) {}
+
+@media (max-width: 800.98px) {}
+
+@media (max-width: 767.98px) {
+    
+
+}
+
+@media (max-width: 630.98px) {}
+
+@media (max-width: 575.98px) {
+    .leavebreadcrumbWrapper{
+         display:block !important;
+    }
+}
+
+@media (max-width: 516.98px) {
+    .attendanceView{
+        display:block !important;
+    }
+   
+}
+
+@media (max-width: 483.98px) {
+    .employessTabs{
+        flex-wrap: wrap !important;
+    }
+   
+
+}
+
+@media (max-width: 440.98px) {
+  
+}
+
+@media (max-width: 420.98px) {
+    .breadcrumbWrapper{
+    display: block !important;
+   }
+}
+
+@media (max-width: 380.98px) {
+   
+}
