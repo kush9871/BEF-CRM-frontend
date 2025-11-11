@@ -8,6 +8,27 @@ export const DashboardMenu = [
     link: "/management/dashboard",
     role: ["super-admin", "admin", "user", "super-admin"],
   },
+        {
+    id: uuid(),
+    title: "Patient",
+    icon: "home",
+    link: "/management/dashboard/patients",
+    role: ["super-admin", "admin", "user", "super-admin"],
+  },
+  {
+    id: uuid(),
+    title: "Services",
+    icon: "home",
+    link: "/management/dashboard/services",
+    role: ["super-admin", "admin", "user", "super-admin"],
+  },
+    {
+    id: uuid(),
+    title: "Diseases",
+    icon: "home",
+    link: "/management/dashboard/diseases",
+    role: ["super-admin", "admin", "user", "super-admin"],
+  },
     {
     id: uuid(),
     title: "Whatsapp Marketing",
@@ -27,13 +48,6 @@ export const DashboardMenu = [
     title: "Email Marketing",
     icon: "home",
     link: "/management/dashboard/email-marketing",
-    role: ["super-admin", "admin", "user", "super-admin"],
-  },
-      {
-    id: uuid(),
-    title: "Patient Details",
-    icon: "home",
-    link: "/management/dashboard/patient-details",
     role: ["super-admin", "admin", "user", "super-admin"],
   },
   // {
